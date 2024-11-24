@@ -1,12 +1,11 @@
 {
-  "homepage": "https://Krishna-Sathish.github.io/vite-project/",
   "name": "vite-project",
   "private": true,
   "version": "0.0.0",
   "type": "module",
   "scripts": {
-    "predepoly":"npm run build",
-   "deploy": "gh-pages -d dist",
+    "predeploy": "npm run build", 
+    "deploy": "gh-pages -d dist",
     "dev": "vite",
     "build": "vite build",
     "lint": "eslint .",
